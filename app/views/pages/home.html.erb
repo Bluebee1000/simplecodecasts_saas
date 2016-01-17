@@ -2,3 +2,19 @@
 	<h1>Welcome to Dev match</h1>
 	<h3>A membership site where entrepeneurs can meet developers.</h3>
 </div>
+<div class="row">
+	<div class="col-md-6">
+		<div class="well">
+			<h2 class="text-center">Basic Membership</h2>
+			<h4>The basic, shitty one.</h4>
+			<%= link_to "Basic Sign up", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="well">
+			<h2 class="text-center">Pro Membership</h2>
+			<h4>The good one!</h4>
+			<%= link_to "Pro Sign up", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+		</div>
+	</div>
+</div>
